@@ -120,3 +120,19 @@
     flex-direction: column;
   }
 }
+
+.testTable td,
+.testTable th {
+  text-align: left;
+  padding: 5px 10px;
+}
+
+.testTable a {
+  color: #00c;
+}
+
+.testTable .error,
+.testTable .error a {
+  color: #c00;
+  font-weight: bold;
+}
